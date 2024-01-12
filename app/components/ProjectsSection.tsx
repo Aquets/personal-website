@@ -13,7 +13,7 @@ const ProjectsSection = () => {
       {projects.map((project) => {
         return (
           <div key={project.id} className="snap-center shrink-0 w-8/12">
-            <ProjectCard project={project}></ProjectCard>
+            <ProjectCard key={project.id} project={project}></ProjectCard>
           </div>
         );
       })}
