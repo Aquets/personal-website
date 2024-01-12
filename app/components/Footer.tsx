@@ -9,13 +9,13 @@ const Footer = () => {
             ↳ <a href="projects">Projects</a>
           </p>
           <p className="pr-5">
-            ↳ <a href="experiments">Experiments</a>
+            ↳ <a href="/experiments">Experiments</a>
           </p>
           <p className="pr-5">
-            ↳ <a href="info">Info</a>
+            ↳ <a href="/info">Info</a>
           </p>
           <p className="pr-5">
-            ↳ <a href="contact">Contact</a>
+            ↳ <a href="/contact">Contact</a>
           </p>
         </div>
         <p>© Alessandro Quets</p>

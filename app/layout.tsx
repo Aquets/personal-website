@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth antialiased break-words md:subpixel-antialiased">
       <head>
-        <link rel="icon" href="favicon.svg" />
+        <link rel="icon" href="/favicon.svg" />
       </head>
       <body>
         <Navbar></Navbar>

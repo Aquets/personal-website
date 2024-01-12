@@ -9,11 +9,15 @@ type ProjectProps = {
 };
 
 const ProjectCard = ({ project, small = false }: ProjectProps) => {
-  const cover = "images/projects/" + project.id + "/cover.png";
+  const cover =
+    process.env.BASE_PATH + "/images/projects/" + project.id + "/cover.png";
 
   return (
     <div className="flex flex-col gap-3" key={project.id}>
-      <a className="overflow-hidden rounded-lg" href={"projects/" + project.id}>
+      <a
+        className="overflow-hidden rounded-lg"
+        href={"/projects/" + project.id}
+      >
         <Image
           src={cover}
           alt={project.name}
