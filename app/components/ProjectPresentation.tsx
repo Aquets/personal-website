@@ -12,11 +12,11 @@ const ProjectPresentation = () => {
   const lastSegmentOfUrl = usePathname()
     .substring(usePathname().lastIndexOf("/") + 1)
     .replace(".html", "");
-  var project: any = projects.find((i) => i.id === lastSegmentOfUrl);
+  var project: any = projects.find((i: any) => i.id === lastSegmentOfUrl);
   project ? projects[0] : project;
 
   const cover = "/images/projects/" + project.id + "/cover.png";
-  const projectIndex = projects.findIndex((p) => p.id == project.id);
+  const projectIndex = projects.findIndex((p: any) => p.id == project.id);
 
   var indexes: number[] = [];
   for (let i = 0; i < 3; i++) {
