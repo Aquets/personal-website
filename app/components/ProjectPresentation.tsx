@@ -9,7 +9,7 @@ import ProjectCard from "./ProjectCard";
 import projects from "../projects.json";
 
 const ProjectPresentation = () => {
-  const lastSegmentOfUrl = usePathname()
+  /*  const lastSegmentOfUrl = usePathname()
     .substring(usePathname().lastIndexOf("/") + 1)
     .replace(".html", "");
   var project: any = projects.find((i: any) => i.id === lastSegmentOfUrl);
@@ -134,7 +134,8 @@ const ProjectPresentation = () => {
         </div>
       </div>
     </>
-  );
+  ); */
+  return <>progetto</>;
 };
 
 export default ProjectPresentation;
