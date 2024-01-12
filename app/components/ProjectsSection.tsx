@@ -12,8 +12,8 @@ const ProjectsSection = () => {
     <div className="w-full flex gap-12 snap-x snap-mandatory overflow-x-auto pb-14">
       {projects.map((project) => {
         return (
-          <div className="snap-center shrink-0 w-8/12">
-            <ProjectCard key={project.id} project={project}></ProjectCard>
+          <div key={project.id} className="snap-center shrink-0 w-8/12">
+            <ProjectCard project={project}></ProjectCard>
           </div>
         );
       })}
