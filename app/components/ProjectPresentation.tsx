@@ -51,7 +51,7 @@ const ProjectPresentation = ({ project }: ProjectPresentationProps) => {
         {project.images
           ? project.images.map((image: string) => {
               return (
-                <div className="overflow-hidden rounded-lg">
+                <div className="overflow-hidden rounded-lg" key={image}>
                   <ImageOrVideo src={image} altText={image} />
                 </div>
               );

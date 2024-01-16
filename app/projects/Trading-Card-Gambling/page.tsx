@@ -3,7 +3,9 @@ import ProjectPresentation from "../../components/ProjectPresentation";
 import projects from "../../projects.json";
 
 const page = () => {
-  const project = projects[0];
+  const project: any = projects.find(
+    (i: any) => i.id === "Trading-Card-Gambling"
+  );
   return (
     <main className="container main-content">
       <ProjectPresentation project={project}></ProjectPresentation>
