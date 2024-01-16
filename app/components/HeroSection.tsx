@@ -1,10 +1,11 @@
 "use client";
 import Script from "next/script";
+import { basePath } from "../next.config";
 
 const HeroSection = () => {
   return (
     <>
-      <Script src="/script.js" strategy="lazyOnload"></Script>
+      <Script src={`${basePath}/script.js`} strategy="lazyOnload"></Script>
       <div className="w-full h-screen flex justify-center items-center overflow-hidden pb-20">
         <pre
           id="morph-section"

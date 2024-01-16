@@ -3,20 +3,21 @@ import Image from "next/image";
 import parse from "html-react-parser";
 import Pill from "./Pill";
 
+import { basePath } from "../next.config";
+
 type ProjectProps = {
   project: any;
   small?: boolean;
 };
 
 const ProjectCard = ({ project, small = false }: ProjectProps) => {
-  const cover =
-    process.env.BASE_PATH + "/images/projects/" + project.id + "/cover.png";
+  const cover = basePath + "/images/projects/" + project.id + "/cover.png";
 
   return (
     <div className="flex flex-col gap-3" key={project.id}>
       <a
         className="overflow-hidden rounded-lg"
-        href={"/projects/" + project.id}
+        href={basePath + "/projects/" + project.id}
       >
         <Image
           src={cover}
