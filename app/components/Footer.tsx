@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -6,16 +7,16 @@ const Footer = () => {
       <div className="px-10 py-10 sm:py-5 flex flex-col justify-between sm:flex-row gap-20 sm:gap-0">
         <div className="flex flex-col gap-5 sm:flex-row sm:gap-0">
           <p className="pr-5">
-            ↳ <a href="/projects">Projects</a>
+            ↳ <Link href="/projects">Projects</Link>
           </p>
           <p className="pr-5">
-            ↳ <a href="/experiments">Experiments</a>
+            ↳ <Link href="/experiments">Experiments</Link>
           </p>
           <p className="pr-5">
-            ↳ <a href="/info">Info</a>
+            ↳ <Link href="/info">Info</Link>
           </p>
           <p className="pr-5">
-            ↳ <a href="/contact">Contact</a>
+            ↳ <Link href="/contact">Contact</Link>
           </p>
         </div>
         <p>© Alessandro Quets</p>

@@ -44,6 +44,7 @@ const Info = () => {
     "AfterEffects",
     "Premier",
     "Blender",
+    "RawGraphs",
     "HTML",
     "CSS",
     "JavaScript",

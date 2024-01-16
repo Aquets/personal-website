@@ -1,9 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import parse from "html-react-parser";
 import Pill from "./Pill";
-
-import { basePath } from "../next.config";
+import ImageOrVideo from "./ImageOrVideo";
+import { basePath } from "../../next.config";
 
 type ProjectProps = {
   project: any;
@@ -16,32 +14,28 @@ const ProjectCard = ({ project, small = false }: ProjectProps) => {
   return (
     <div className="flex flex-col gap-3" key={project.id}>
       <a
-        className="overflow-hidden rounded-lg"
         href={basePath + "/projects/" + project.id}
+        className="hover:underline no-underline"
       >
-        <Image
-          src={cover}
-          alt={project.name}
-          width={720}
-          height={720}
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-          className="object-cover hover:scale-110 transition duration-500 cursor-pointer"
-        />
+        <div className="flex flex-col gap-3">
+          <div className="overflow-hidden rounded-lg">
+            <ImageOrVideo
+              src={project.cover}
+              altText={project.name}
+              // className="hover:scale-110 transition-transform duration-500 cursor-pointer"
+              className="cursor-pointer"
+            />
+          </div>
+
+          {small ? (
+            <h3 className=" text-base md:text-lg font uppercase">
+              {project.name}
+            </h3>
+          ) : (
+            <h3 className="text-large font uppercase">{project.name}</h3>
+          )}
+        </div>
       </a>
-      {small ? (
-        <h3 className=" text-base md:text-lg font uppercase">
-          {project.name}
-          {/* <sup className="text-sm">{project.year}</sup> */}
-        </h3>
-      ) : (
-        <h3 className="text-large font uppercase">
-          {project.name}
-          {/* <sup className="text-sm">{project.year}</sup> */}
-        </h3>
-      )}
 
       <div className="flex flex-row flex-wrap gap-1">
         {project.categories.map((cat: string) => {

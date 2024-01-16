@@ -1,10 +1,12 @@
 import React from "react";
 import ProjectPresentation from "../../components/ProjectPresentation";
+import projects from "../../projects.json";
 
 const page = () => {
+  const project = projects[0];
   return (
     <main className="container main-content">
-      <ProjectPresentation></ProjectPresentation>
+      <ProjectPresentation project={project}></ProjectPresentation>
     </main>
   );
 };

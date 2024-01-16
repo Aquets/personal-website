@@ -1,6 +1,6 @@
 "use client";
 import Script from "next/script";
-import { basePath } from "../next.config";
+import { basePath } from "../../next.config";
 
 const HeroSection = () => {
   return (

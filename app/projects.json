@@ -5,9 +5,17 @@
     "year": "2022",
     "client": "University project",
     "role": "Coding and data extraction",
+    "cover": "video:894128189",
     "description": "Twenty generative posters about the Pokemon trading card game and booster packs, visualizing the chances of finding rare cards. The goal is creating awareness on the strong parallelism between trading card games and gambling. <br><br>The posters are generated through a creative coding script using the <a href='https://openrndr.org/' target='blank'>OPENRNDR framework</a> framework.",
-    "categories": ["Poster Design", "Data Visualisation", "Creative Coding"],
-    "images": ["tcg 1.jpg", "tcg 2.png"],
+    "categories": [
+      "Poster Design",
+      "Data Visualisation",
+      "Creative Coding"
+    ],
+    "images": [
+      "/personal-website/images/projects/Trading-Card-Gambling/tcg 1.jpg",
+      "/personal-website/images/projects/Trading-Card-Gambling/tcg 2.png"
+    ],
     "collaborators": [
       "Martina Melillo",
       "Octavian Husoschi",
@@ -19,28 +27,26 @@
     "id": "EKSIG",
     "name": "EKSIG",
     "year": "2022",
+    "client": "Politecnico di Milano",
+    "role": "Design and code the website",
+    "cover": "/personal-website/images/projects/EKSIG/cover.png",
     "description": "Website for the conference Eksig 2023: From Abstractness to Concreteness. Experiential knowledge and the role of prototypes in design research, hosted by the Department of Design of Politecnico di Milano.<br><br> An interactive and generative cover has been designed for the website to symbolize the transition from the abstract nature of a concept to the tangible reality of a prototype. <br><br>⟶ <a href='https://www.eksig2023.polimi.it/' target='_blank'>Browse the website</a>",
-    "categories": ["Web Design"]
+    "categories": [
+      "Web Design"
+    ]
   },
   {
     "id": "Covid-Objects-Report",
     "name": "Covid Objects Report",
     "year": "2022",
+    "client": "University project",
+    "role": "Data extraction and visualization",
+    "cover": "video:897395773",
     "description": "Research depicting the global approach to covid related objects to better understand the materiality of covid in the post-pandemic future.",
-    "categories": ["Data Visualisation", "Research", "Editorial Design"]
-  },
-  {
-    "id": "Covid-Objects-Report2",
-    "name": "Covid Objects Report",
-    "year": "2022",
-    "description": "Research depicting the global approach to covid related objects to better understand the materiality of covid in the post-pandemic future.",
-    "categories": ["Data Visualisation", "Research", "Editorial Design"]
-  },
-  {
-    "id": "Covid-Objects-Report3",
-    "name": "Covid Objects Report",
-    "year": "2022",
-    "description": "Research depicting the global approach to covid related objects to better understand the materiality of covid in the post-pandemic future.",
-    "categories": ["Data Visualisation", "Research", "Editorial Design"]
+    "categories": [
+      "Data Visualisation",
+      "Research",
+      "Editorial Design"
+    ]
   }
 ]
