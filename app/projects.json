@@ -31,10 +31,14 @@
     "year": "2022",
     "client": "Politecnico di Milano",
     "role": "Design and code the website",
-    "cover": "/personal-website/images/projects/EKSIG/cover.png",
+    "cover": "video:903858316",
     "description": "Website for the conference Eksig 2023: From Abstractness to Concreteness. Experiential knowledge and the role of prototypes in design research, hosted by the Department of Design of Politecnico di Milano.<br><br> An interactive and generative cover has been designed for the website to symbolize the transition from the abstract nature of a concept to the tangible reality of a prototype. <br><br>⟶ <a href='https://www.eksig2023.polimi.it/' target='_blank'>Browse the website</a>",
     "categories": [
       "Web Design"
+    ],
+    "collaborators": [
+      "Francesca Gheli",
+      "Density Design Lab"
     ]
   },
   {
@@ -44,11 +48,22 @@
     "client": "University project",
     "role": "Data extraction and visualization",
     "cover": "video:897395773",
-    "description": "Research depicting the global approach to covid related objects to better understand the materiality of covid in the post-pandemic future.",
+    "description": "“Covid object” is a label fit to any product in close relation with the pandemic. This research's goal is to find out what these objects are, what was the price fluctuation and how the open-source community reacted when the production chain failed to deliver the needed goods.<br><br>The goal of the research is to objectively depict the global approach to “covid objects” to better understand the materiality of covid in this post-pandemic future.<br><br>⟶<a href='https://docs.google.com/spreadsheets/d/1gM594xpo9FvTDrc1fmqkOKSArMLCeRB8kQpg_Ip-xZI/edit?usp=sharing' target='_blank'>Explore the dataset</a><br><br>⟶<a href='https://daniele-dellorto.github.io/mycovidsouvenir/' target='_blank'>Browse the website</a>",
     "categories": [
       "Data Visualisation",
       "Research",
       "Editorial Design"
+    ],
+    "images": [
+      "video:897395862"
+    ],
+    "collaborators": [
+      "Daniele Dell'Orto",
+      "Martina Francella",
+      "Martina Melillo",
+      "Matteo Pini",
+      "Octavian Husoschi",
+      "Shan Huang"
     ]
   },
   {
@@ -71,5 +86,43 @@
       "Michela Montani",
       "Octavian Husoschi"
     ]
+  },
+  {
+    "id": "Saiver",
+    "name": "Saiver",
+    "year": "2020",
+    "client": "Saiver s.r.l.",
+    "role": "Brand design, UI and 3D interaction in the website",
+    "cover": "-",
+    "description": "Saiver is a worldwide-known conditioning systems company. The project consists in the complete renewal of their visual identity and in the realization of a new website, from concept to coding.<br><br>The identity system reflects the double nature of the company, on one side extremely technical while on the other side dynamic and light. To enforce the brand communication, a custom typeface was also created. The characters are solid yet fresh, thanks to the use of strong cuts.<br><br>⟶<a href='https://www.saiver-ahu.eu/' target='_blank'>Browse the website</a>",
+    "categories": [
+      "Branding",
+      "Web Design"
+    ],
+    "images": [
+      "-"
+    ],
+    "collaborators": [
+      "Daniele Dell'Orto",
+      "Martina Melillo",
+      "Aurora Saita"
+    ]
+  },
+  {
+    "id": "Visual Content Assassment Tool",
+    "name": "VCAT",
+    "year": "2023",
+    "client": "Master thesis",
+    "role": "Research, design and development",
+    "cover": "-",
+    "description": "Saiver is a worldwide-known conditioning systems company. The project consists in the complete renewal of their visual identity and in the realization of a new website, from concept to coding.<br><br>The identity system reflects the double nature of the company, on one side extremely technical while on the other side dynamic and light. To enforce the brand communication, a custom typeface was also created. The characters are solid yet fresh, thanks to the use of strong cuts.<br><br>⟶<a href='https://www.saiver-ahu.eu/' target='_blank'>Browse the website</a>",
+    "categories": [
+      "Interaction Design",
+      "Web Design"
+    ],
+    "images": [
+      "-"
+    ],
+    "collaborators": []
   }
 ]

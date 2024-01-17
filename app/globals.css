@@ -25,7 +25,7 @@
   }
 
   .border-color {
-    @apply border-[--foreground] dark:border-[--background];
+    @apply border-[--foreground];
   }
 
   .text-large {
