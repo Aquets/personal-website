@@ -34,7 +34,8 @@
     "cover": "video:903858316",
     "description": "Website for the conference Eksig 2023: From Abstractness to Concreteness. Experiential knowledge and the role of prototypes in design research, hosted by the Department of Design of Politecnico di Milano.<br><br> An interactive and generative cover has been designed for the website to symbolize the transition from the abstract nature of a concept to the tangible reality of a prototype. <br><br>⟶ <a href='https://www.eksig2023.polimi.it/' target='_blank'>Browse the website</a>",
     "categories": [
-      "Web Design"
+      "Web Design",
+      "Creative Coding"
     ],
     "images": [
       "video:903865826",
@@ -118,9 +119,10 @@
     "year": "2023",
     "client": "Master thesis",
     "role": "Research, design and development",
-    "cover": "-",
-    "description": "Saiver is a worldwide-known conditioning systems company. The project consists in the complete renewal of their visual identity and in the realization of a new website, from concept to coding.<br><br>The identity system reflects the double nature of the company, on one side extremely technical while on the other side dynamic and light. To enforce the brand communication, a custom typeface was also created. The characters are solid yet fresh, thanks to the use of strong cuts.<br><br>⟶<a href='https://www.saiver-ahu.eu/' target='_blank'>Browse the website</a>",
+    "cover": "video:905590667",
+    "description": "",
     "categories": [
+      "Research",
       "Interaction Design",
       "Web Design"
     ],
