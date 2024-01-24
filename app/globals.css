@@ -29,7 +29,11 @@
   }
 
   .text-large {
-    @apply text-2xl sm:text-3xl;
+    @apply text-xl sm:text-3xl;
+  }
+
+  .text-small {
+    @apply text-xs sm:text-sm;
   }
 
   .bg-shade{

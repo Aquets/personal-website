@@ -8,7 +8,7 @@ export default function Home() {
       <HeroSection></HeroSection>
 
       <div className="container main-content">
-        <div id="#projects">
+        <div id="#projects" className="pt-10">
           <SectionHeader title="Projects" />
           <ProjectsSection></ProjectsSection>
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
               visualization. My aim is to create visual experiences that
               captivate, engage and inform the users.
             </p>
-            <a className="pt-5" href="/info">
+            <a className="pt-5" href="info">
               ↳ read more
             </a>
           </div>

@@ -17,7 +17,7 @@ const ProjectPresentation = ({ project }: ProjectPresentationProps) => {
       <div className="flex flex-col gap-5">
         <div className="flex flex-row justify-between">
           <h1 className="text-large font uppercase">
-            {project.name} <sup className="text-sm">{project.year}</sup>
+            {project.name} <sup className="text-small">{project.year}</sup>
           </h1>
         </div>
         <div className="overflow-hidden rounded-lg">
@@ -58,14 +58,14 @@ const ProjectPresentation = ({ project }: ProjectPresentationProps) => {
             })
           : null}
       </div>
-      {project.collaborators ? (
+      {project.collaborators.length > 0 ? (
         <div>
           <SectionHeader title="Team"></SectionHeader>
           <div>
             {project.collaborators
               ? project.collaborators.map((collaborator: string) => {
                   return (
-                    <p className="text-xl" key={collaborator}>
+                    <p className="text-small" key={collaborator}>
                       {collaborator}
                     </p>
                   );

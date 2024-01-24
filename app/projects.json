@@ -13,10 +13,11 @@
       "Creative Coding"
     ],
     "images": [
-      "video:894823514",
+      "/personal-website/images/projects/Trading-Card-Gambling/Data.jpg",
       "video:894823791",
-      "/personal-website/images/projects/Trading-Card-Gambling/tcg 1.jpg",
-      "/personal-website/images/projects/Trading-Card-Gambling/tcg 2.png"
+      "/personal-website/images/projects/Trading-Card-Gambling/Showcase.jpg",
+      "video:894823514",
+      "/personal-website/images/projects/Trading-Card-Gambling/Construction.jpg"
     ],
     "collaborators": [
       "Martina Melillo",
@@ -39,6 +40,7 @@
     ],
     "images": [
       "video:903865826",
+      "/personal-website/images/projects/Eksig/Eksig shapes.png",
       "video:903983715"
     ],
     "collaborators": [
@@ -53,13 +55,17 @@
     "client": "University project",
     "role": "Data extraction and visualization",
     "cover": "video:897395773",
-    "description": "“Covid object” is a label fit to any product in close relation with the pandemic. This research's goal is to find out what these objects are, what was the price fluctuation and how the open-source community reacted when the production chain failed to deliver the needed goods.<br><br>The goal of the research is to objectively depict the global approach to “covid objects” to better understand the materiality of covid in this post-pandemic future.<br><br>⟶ <a href='https://docs.google.com/spreadsheets/d/1gM594xpo9FvTDrc1fmqkOKSArMLCeRB8kQpg_Ip-xZI/edit?usp=sharing' target='_blank'>Consult the report</a><br><br>The analysis of COVID-related items across 17 Amazon marketplaces worldwide has revealed that many of these items serve as souvenirs, encapsulating ideas, trends, and opinions about the pandemic. An online archive has been created to facilitate the exploration of these objects.<br><br>⟶ <a href='https://daniele-dellorto.github.io/mycovidsouvenir/' target='_blank'>Browse the archive</a>",
+    "description": "“Covid object” is a label fit to any product in close relation with the pandemic. This research's goal is to find out what these objects are, what was the price fluctuation and how the open-source community reacted when the production chain failed to deliver the needed goods.<br><br>The goal of the research is to objectively depict the global approach to covid objects to better understand the materiality of covid in this post-pandemic future.<br><br>⟶ <a href='/personal-website/images/projects/Covid-Objects-Report/Materiality of COVID-19 report.pdf' target='_blank'>Consult the report</a><br><br>The analysis of COVID-related items across 17 Amazon marketplaces worldwide has revealed that many of these items serve as souvenirs, encapsulating ideas, trends, and opinions about the pandemic. An online archive has been created to facilitate the exploration of these objects.<br><br>⟶ <a href='https://daniele-dellorto.github.io/mycovidsouvenir/' target='_blank'>Browse the archive</a>",
     "categories": [
       "Data Visualisation",
       "Research",
       "Editorial Design"
     ],
     "images": [
+      "/personal-website/images/projects/Covid-Objects-Report/Report1.jpg",
+      "/personal-website/images/projects/Covid-Objects-Report/Report2.jpg",
+      "/personal-website/images/projects/Covid-Objects-Report/Report3.jpg",
+      "/personal-website/images/projects/Covid-Objects-Report/Report4.jpg",
       "video:897395862"
     ],
     "collaborators": [
@@ -83,6 +89,11 @@
       "Editorial Design"
     ],
     "images": [
+      "/personal-website/images/projects/Inquest/Cover.jpg",
+      "/personal-website/images/projects/Inquest/Pages1.jpg",
+      "/personal-website/images/projects/Inquest/Pages2.jpg",
+      "/personal-website/images/projects/Inquest/Pages3.jpg",
+      "/personal-website/images/projects/Inquest/Pages4.jpg",
       "video:894843533"
     ],
     "collaborators": [
@@ -105,7 +116,9 @@
       "Web Design"
     ],
     "images": [
-      "video:905200422"
+      "video:905200422",
+      "/personal-website/images/projects/Saiver/Screens.png",
+      "/personal-website/images/projects/Saiver/Business card.png"
     ],
     "collaborators": [
       "Daniele Dell'Orto",
@@ -114,20 +127,22 @@
     ]
   },
   {
-    "id": "Visual-Content-Assassment-Tool",
-    "name": "VCAT",
+    "id": "Visual-Content-Assessment-Tool",
+    "name": "Visual Content Assessment Tool",
     "year": "2023",
     "client": "Master thesis",
     "role": "Research, design and development",
     "cover": "video:905590667",
-    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualisation.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the original research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br>⟶ <a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a>",
+    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualisation.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br>⟶ <a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a>",
     "categories": [
       "Research",
       "Interaction Design",
       "Web Design"
     ],
     "images": [
+      "/personal-website/images/projects/Visual-Content-Assessment-Tool/Components.png",
       "video:905612843",
+      "/personal-website/images/projects/Visual-Content-Assessment-Tool/Screens.png",
       "video:905615876"
     ],
     "collaborators": []

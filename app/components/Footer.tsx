@@ -3,9 +3,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-[#fafafa]">
-      <div className="px-10 py-10 sm:py-5 flex flex-col justify-between sm:flex-row gap-20 sm:gap-0">
-        <div className="flex flex-col gap-5 sm:flex-row sm:gap-0">
+    <footer className="bg-[var(--foreground)] text-[var(--background)] dark:bg-[var(--shade)] dark:text-[var(--foreground)]">
+      <div className="px-5 sm:px-10 py-5 flex justify-between flex-row gap-20 sm:gap-0 text-small">
+        {/* <div className="flex flex-col gap-5 sm:flex-row sm:gap-0">
           <p className="pr-5">
             ↳ <Link href="/projects">Projects</Link>
           </p>
@@ -18,8 +18,10 @@ const Footer = () => {
           <p className="pr-5">
             ↳ <Link href="/contact">Contact</Link>
           </p>
-        </div>
+        </div> */}
+
         <p>© Alessandro Quets</p>
+        <p>Made with ♡ by me</p>
       </div>
     </footer>
   );

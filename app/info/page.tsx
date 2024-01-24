@@ -94,7 +94,7 @@ const Info = () => {
           In October 2023 I completed my studies in Communication Design at
           Politecnico di Milano. With my master{"'"}s thesis I focused on user
           collaboration in enhancing the visual side of Wikipedia. Utilizing
-          UX/UI Design and data visualization, I developed a tool aimed at
+          UX/UI Design and data visualisation, I developed a tool aimed at
           assisting Wikipedians in bridging gaps in visual content.
         </p>
       </div>
@@ -119,7 +119,7 @@ const Info = () => {
       </div>
       <div>
         <SectionHeader title="Software and Tools" />
-        <div className="flex flex-row flex-wrap gap-3">
+        <div className="flex flex-row flex-wrap gap-1 sm:gap-3">
           {skills.map((skill) => {
             return <Pill key={skill} content={skill}></Pill>;
           })}

@@ -307,7 +307,7 @@ var asciis = [
     "",
     "",
     " I am a digital designer",
-    "      based in Milan",
+    "    based near Milan",
   ],
   [
     "",

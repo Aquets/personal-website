@@ -4,7 +4,7 @@ import projects from "../../projects.json";
 
 const page = () => {
   const project: any = projects.find(
-    (i: any) => i.id === "Visual-Content-Assassment-Tool"
+    (i: any) => i.id === "Visual-Content-Assessment-Tool"
   );
   return (
     <main className="container main-content">

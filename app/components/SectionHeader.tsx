@@ -5,7 +5,7 @@ type SectionHeaderProps = {
 };
 
 const SectionHeader = ({ title }: SectionHeaderProps) => {
-  return <h2 className="text-sm mb-3">{title}</h2>;
+  return <h2 className="text-small mb-2">{title}</h2>;
 };
 
 export default SectionHeader;

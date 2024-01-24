@@ -29,7 +29,7 @@ export const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 p-[1rem] sm:px-8 z-10 sm:bg-transparent ${
-        navbarOpen ? "bg-[rgb(var(--background-rgb))]" : ""
+        navbarOpen ? "bg-[var(--background)]" : ""
       }`}
     >
       <div className="flex flex-wrap justify-between items-center ">
