@@ -114,13 +114,13 @@
     ]
   },
   {
-    "id": "Visual Content Assassment Tool",
+    "id": "Visual-Content-Assassment-Tool",
     "name": "VCAT",
     "year": "2023",
     "client": "Master thesis",
     "role": "Research, design and development",
     "cover": "video:905590667",
-    "description": "",
+    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualisation.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the original research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br>⟶<a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a>",
     "categories": [
       "Research",
       "Interaction Design",
