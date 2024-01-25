@@ -1,5 +1,25 @@
 [
   {
+    "id": "Visual-Content-Assessment-Tool",
+    "name": "Visual Content Assessment Tool",
+    "year": "2023",
+    "client": "Master thesis",
+    "role": "Research, design and development",
+    "cover": "video:905590667",
+    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualisation.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br><a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a> ↝",
+    "categories": [
+      "Research",
+      "Interaction Design"
+    ],
+    "images": [
+      "/personal-website/images/projects/Visual-Content-Assessment-Tool/Components.png",
+      "video:905612843",
+      "/personal-website/images/projects/Visual-Content-Assessment-Tool/Screens.png",
+      "video:905615876"
+    ],
+    "collaborators": []
+  },
+  {
     "id": "Trading-Card-Gambling",
     "name": "T.C.G. Trading Card Gambling",
     "year": "2022",
@@ -45,6 +65,29 @@
     "collaborators": [
       "Francesca Gheli",
       "Density Design Lab"
+    ]
+  },
+  {
+    "id": "Saiver",
+    "name": "Saiver",
+    "year": "2020",
+    "client": "Saiver s.r.l.",
+    "role": "Brand design, UI and 3D interaction in the website",
+    "cover": "video:905191489",
+    "description": "Saiver is a worldwide-known conditioning systems company. The project consists in the complete renewal of their visual identity and in the realization of a new website, from concept to coding.<br><br>The identity system reflects the double nature of the company, on one side extremely technical while on the other side dynamic and light. To reinforce brand communication, the website incorporates a 3D interactive feature that enables users to navigate through an air handling unit, a key product in the company's top-selling lineup.<br><br><a href='https://www.saiver-ahu.eu/' target='_blank'>Browse the website</a> ↝",
+    "categories": [
+      "Branding",
+      "Web Design"
+    ],
+    "images": [
+      "video:905200422",
+      "/personal-website/images/projects/Saiver/Screens.png",
+      "/personal-website/images/projects/Saiver/Business card.png"
+    ],
+    "collaborators": [
+      "Daniele Dell'Orto",
+      "Martina Melillo",
+      "Aurora Saita"
     ]
   },
   {
@@ -100,48 +143,5 @@
       "Michela Montani",
       "Octavian Husoschi"
     ]
-  },
-  {
-    "id": "Saiver",
-    "name": "Saiver",
-    "year": "2020",
-    "client": "Saiver s.r.l.",
-    "role": "Brand design, UI and 3D interaction in the website",
-    "cover": "video:905191489",
-    "description": "Saiver is a worldwide-known conditioning systems company. The project consists in the complete renewal of their visual identity and in the realization of a new website, from concept to coding.<br><br>The identity system reflects the double nature of the company, on one side extremely technical while on the other side dynamic and light. To reinforce brand communication, the website incorporates a 3D interactive feature that enables users to navigate through an air handling unit, a key product in the company's top-selling lineup.<br><br><a href='https://www.saiver-ahu.eu/' target='_blank'>Browse the website</a> ↝",
-    "categories": [
-      "Branding",
-      "Web Design"
-    ],
-    "images": [
-      "video:905200422",
-      "/personal-website/images/projects/Saiver/Screens.png",
-      "/personal-website/images/projects/Saiver/Business card.png"
-    ],
-    "collaborators": [
-      "Daniele Dell'Orto",
-      "Martina Melillo",
-      "Aurora Saita"
-    ]
-  },
-  {
-    "id": "Visual-Content-Assessment-Tool",
-    "name": "Visual Content Assessment Tool",
-    "year": "2023",
-    "client": "Master thesis",
-    "role": "Research, design and development",
-    "cover": "video:905590667",
-    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualisation.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br><a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a> ↝",
-    "categories": [
-      "Research",
-      "Interaction Design"
-    ],
-    "images": [
-      "/personal-website/images/projects/Visual-Content-Assessment-Tool/Components.png",
-      "video:905612843",
-      "/personal-website/images/projects/Visual-Content-Assessment-Tool/Screens.png",
-      "video:905615876"
-    ],
-    "collaborators": []
   }
 ]
