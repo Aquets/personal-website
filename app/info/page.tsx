@@ -87,8 +87,8 @@ const Info = () => {
           >
             SMART Data Sprint
           </a>{" "}
-          I delved into the use of the code to manipule data and create static
-          and interactive visualizations.
+          I delved into the use of code to manipule data and create static and
+          interactive visualizations.
           <br />
           <br />
           In October 2023 I completed my studies in Communication Design at
