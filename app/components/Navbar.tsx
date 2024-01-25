@@ -9,10 +9,10 @@ const navLinks: { title: string; path: string }[] = [
     title: "Projects",
     path: "/projects",
   },
-  {
-    title: "Experiments",
-    path: "/experiments",
-  },
+  // {
+  //   title: "Experiments",
+  //   path: "/experiments",
+  // },
   {
     title: "Info",
     path: "/info",
