@@ -14,7 +14,7 @@ type ProjectPresentationProps = {
 const ProjectPresentation = ({ project }: ProjectPresentationProps) => {
   return (
     <>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-2 sm:gap-5">
         <div className="flex flex-row justify-between">
           <h1 className="text-large font uppercase">
             {project.name} <sup className="text-small">{project.year}</sup>
@@ -31,11 +31,11 @@ const ProjectPresentation = ({ project }: ProjectPresentationProps) => {
         <div className="flex flex-col gap-8 basis-full lg:basis-1/4">
           <div>
             <SectionHeader title="Client"></SectionHeader>
-            <p className="text-xl">{project.client}</p>
+            <p className="text-base sm:text-xl">{project.client}</p>
           </div>
           <div>
             <SectionHeader title="Role"></SectionHeader>
-            <p className="text-xl">{project.role}</p>
+            <p className="text-base sm:text-xl">{project.role}</p>
           </div>
           <div>
             <SectionHeader title="Categories"></SectionHeader>

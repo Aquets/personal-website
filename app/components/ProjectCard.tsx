@@ -12,7 +12,7 @@ const ProjectCard = ({ project, small = false }: ProjectProps) => {
   const cover = basePath + "/images/projects/" + project.id + "/cover.png";
 
   return (
-    <div className="flex flex-col gap-3" key={project.id}>
+    <div className="flex flex-col gap-1 sm:gap-3" key={project.id}>
       <a
         href={basePath + "/projects/" + project.id}
         className="hover:underline no-underline"
@@ -42,15 +42,6 @@ const ProjectCard = ({ project, small = false }: ProjectProps) => {
           return <Pill key={cat} content={cat} small={true}></Pill>;
         })}
       </div>
-
-      {/* <p className=" line-clamp-2">{parse(project.description)}</p>
-
-      <a href={"/projects/" + project.id}>Read more</a>
-      <div>
-        {project.categories.map((cat: string) => {
-          return <p key={cat}>{cat}</p>;
-        })}
-      </div> */}
     </div>
   );
 };

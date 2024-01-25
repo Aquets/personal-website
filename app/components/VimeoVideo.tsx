@@ -17,7 +17,7 @@ const VimeoVideo = ({ videoId, className, title }: VimeoVideoProps) => {
         }
         allow="autoplay; fullscreen; picture-in-picture"
         title={title}
-        className="w-full aspect-video pointer-events-none bg-shade"
+        className="w-full aspect-video pointer-events-none loading-bg"
       ></iframe>
     </div>
   );

@@ -5,7 +5,7 @@
 /* From Public Directory */
 @font-face {
   font-family: "IBM Plex Sans";
-  src: url("/fonts/IBMPlexSans-Regular.ttf");
+  src: url("/personal-website/fonts/IBMPlexSans-Regular.ttf");
   font-style: medium;
   font-weight: normal;
   font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Regular.ttf");
+  src: url("/personal-website/fonts/IBMPlexMono-Regular.ttf");
   font-style: medium;
   font-weight: normal;
   font-display: swap;
@@ -39,12 +39,27 @@
   .bg-shade{
     @apply bg-[--shade];
   }
+
+  /* Embla Carousel classes */
+
+.embla {
+  @apply overflow-hidden;
+}
+.embla__container {
+  @apply flex;
+}
+.embla__slide {
+  @apply flex-[0_0_100%] mr-1;
+  @apply  sm:flex-[0_0_85%] sm:mr-5
+}
+
 }
 
 :root {
   --foreground: #09090b;
   --background: #fafafa;
   --shade: #f4f4f5;
+  --shade2: #fafafa;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,6 +67,7 @@
     --foreground: #fafafa;
     --background: #18181b;
     --shade: #27272a;
+    --shade2: #313135;
   }
 }
 
@@ -71,3 +87,19 @@ main a {
 pre {
   font-family: "IBM Plex Mono", monospace;
 }
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.loading-bg{
+  
+  background: linear-gradient(110deg,  var(--shade) 8%, var(--shade2) 18%, var(--shade) 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1s shine linear 10;
+  
+}
+

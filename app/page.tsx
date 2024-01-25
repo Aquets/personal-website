@@ -1,6 +1,8 @@
+"use client";
 import HeroSection from "./components/HeroSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SectionHeader from "./components/SectionHeader";
+import { EmblaCarousel } from "./components/EmblaCarousel";
 
 export default function Home() {
   return (
@@ -10,20 +12,20 @@ export default function Home() {
       <div className="container main-content">
         <div id="#projects" className="pt-10">
           <SectionHeader title="Projects" />
-          <ProjectsSection></ProjectsSection>
+          <EmblaCarousel></EmblaCarousel>
         </div>
         <div>
           <SectionHeader title="Overview" />
           <div className="flex flex-col">
             <p className="text-large">
-              I am a digital designer based in Milan. I have coding skills and a
-              strong interest in web design, interaction design and data
+              I am a digital designer based near Milan. I have coding skills and
+              a strong interest in web design, interaction design and data
               visualization. My aim is to create visual experiences that
               captivate, engage and inform the users.
             </p>
-            <a className="pt-5" href="info">
-              ↳ read more
-            </a>
+            <p className="pt-2 sm:pt-5">
+              <a href="info">read more</a> ↝
+            </p>
           </div>
         </div>
         <div>

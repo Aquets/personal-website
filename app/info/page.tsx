@@ -63,7 +63,7 @@ const Info = () => {
       <div>
         <SectionHeader title="Overview" />
         <p className="text-large">
-          Hi! I am Alessandro Quets. I am a digital designer based in Milan. I
+          Hi! I am Alessandro Quets. I am a digital designer based near Milan. I
           have coding skills and a strong interest in web design, interaction
           design and data visualization. My aim is to create visual experiences
           that captivate, engage and inform the users.
@@ -92,9 +92,9 @@ const Info = () => {
           <br />
           <br />
           In October 2023 I completed my studies in Communication Design at
-          Politecnico di Milano. With my master{"'"}s thesis I focused on user
-          collaboration in enhancing the visual side of Wikipedia. Utilizing
-          UX/UI Design and data visualisation, I developed a tool aimed at
+          Politecnico di Milano. With my master{"'"}s thesis I focused on users
+          collaboration in enhancing the visual side of Wikipedia. Through
+          interaction Design and data visualisation, I developed a tool aimed at
           assisting Wikipedians in bridging gaps in visual content.
         </p>
       </div>

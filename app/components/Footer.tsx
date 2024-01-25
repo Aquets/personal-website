@@ -21,7 +21,7 @@ const Footer = () => {
         </div> */}
 
         <p>© Alessandro Quets</p>
-        <p>Made with ♡ by me</p>
+        <p>in ♡ with pixels</p>
       </div>
     </footer>
   );
