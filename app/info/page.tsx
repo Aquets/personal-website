@@ -94,7 +94,7 @@ const Info = () => {
           In October 2023 I completed my studies in Communication Design at
           Politecnico di Milano. With my master{"'"}s thesis I focused on users
           collaboration in enhancing the visual side of Wikipedia. Through
-          interaction Design and data visualisation, I developed a tool aimed at
+          interaction Design and data visualization, I developed a tool aimed at
           assisting Wikipedians in bridging gaps in visual content.
         </p>
       </div>

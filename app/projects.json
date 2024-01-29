@@ -8,7 +8,7 @@
     "cover": "video:894128189",
     "description": "Twenty generative posters about the Pokemon trading card game and booster packs, visualizing the chances of finding rare cards. The goal is creating awareness on the strong parallelism between trading card games and gambling. <br><br>The posters are generated through a creative coding script using the <a href='https://openrndr.org/' target='blank'>OPENRNDR framework</a> framework.",
     "categories": [
-      "Data Visualisation",
+      "Data Visualization",
       "Creative Coding"
     ],
     "images": [
@@ -54,7 +54,7 @@
     "client": "Master thesis",
     "role": "Research, design and development",
     "cover": "video:905590667",
-    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualisation.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br><a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a> ↝",
+    "description": "VCAT, short for Visual Content Assessment Tool, is an interactive dashboard specifically crafted to monitor images within Wikipedia's thematic niches. It helps contributors in addressing gaps in visual content through data visualization.<br><br>Complementing the dashboard, an extraction tool has been designed and developed to empower users to extract up-to-date data about articles of their interest.<br><br>This initiative stems from insights collected during the research of my master thesis on user collaboration practices related to images on Wikipedia.<br><br><a href='https://aquets.github.io/VCAT-dashboard/#/dashboard?data=https://raw.githubusercontent.com/Aquets/VCAT-data-extractor/main/Examples/wp_Neuroscience.json' target='_blank'>Explore the dashboard</a> ↝",
     "categories": [
       "Research",
       "Interaction Design"
@@ -100,7 +100,7 @@
     "description": "“Covid object” is a label fit to any product in close relation with the pandemic. This research's goal is to find out what these objects are, what was the price fluctuation and how the open-source community reacted when the production chain failed to deliver the needed goods.<br><br>The goal of the research is to objectively depict the global approach to covid objects to better understand the materiality of covid in this post-pandemic future.<br><br><a href='/personal-website/images/projects/Covid-Objects-Report/Materiality of COVID-19 report.pdf' target='_blank'>Consult the report</a> ↝<br><br>The analysis of COVID-related items across 17 Amazon marketplaces worldwide has revealed that many of these items serve as souvenirs, encapsulating ideas, trends, and opinions about the pandemic. An online archive has been created to facilitate the exploration of these objects.<br><br><a href='https://daniele-dellorto.github.io/mycovidsouvenir/' target='_blank'>Browse the archive</a> ↝",
     "categories": [
       "Research",
-      "Data Visualisation"
+      "Data Visualization"
     ],
     "images": [
       "/personal-website/images/projects/Covid-Objects-Report/Report1.jpg",
