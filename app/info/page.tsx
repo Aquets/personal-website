@@ -5,6 +5,16 @@ import Pill from "../components/Pill";
 const Info = () => {
   const experiences = [
     {
+      year: "Now",
+      title: "UX/UI Designer and Frontend Developer",
+      place: "Smilee Finance",
+    },
+    {
+      year: "2024",
+      title: "Teacher Assistant at Digital Design Studio",
+      place: "Politecnico di Milano",
+    },
+    {
       year: "2023",
       title: "Master degree in Communication Design",
       place: "Politecnico di Milano",
@@ -26,11 +36,6 @@ const Info = () => {
     },
     {
       year: "2020",
-      title: "Work experience",
-      place: "Saiver srl",
-    },
-    {
-      year: "2020",
       title: "Bachelor Degree in Communication Design",
       place: "Politecnico di Milano",
     },
@@ -44,12 +49,14 @@ const Info = () => {
     "AfterEffects",
     "Premier",
     "Blender",
+    "Womp",
     "RawGraphs",
     "HTML",
     "CSS",
     "JavaScript",
     "P5.js",
     "Three.js",
+    "Svelte",
     "React",
     "Wordpress",
     "Python",

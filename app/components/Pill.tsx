@@ -14,7 +14,7 @@ const Pill = ({ content, small = false }: PillProps) => {
     );
   } else {
     return (
-      <div className="rounded-full px-3 py-1 sm:px-3 sm:py-3 border border-solid border-color">
+      <div className="rounded-full px-3 py-1 sm:px-3 sm:py-1 border border-solid border-color">
         <p className="text-base sm:text-lg">{content}</p>
       </div>
     );
