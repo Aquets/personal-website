@@ -26,7 +26,7 @@ export const ProjectsCarousel = () => {
   }
 
   return (
-    <div className="-mt-10">
+    <div className="sm:-mt-10">
       <div className="w-full justify-end gap-1 hidden sm:flex mb-2">
         <button
           onClick={prevSlide}
