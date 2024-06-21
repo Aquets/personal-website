@@ -15,7 +15,7 @@ export default function Home() {
           <EmblaCarousel></EmblaCarousel>
         </div>
         <div>
-          <SectionHeader title="Overview" />
+          <SectionHeader title="About me" />
           <div className="flex flex-col">
             <p className="text-large">
               I am a digital designer based near Milan. I have coding skills and

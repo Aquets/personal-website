@@ -36,23 +36,22 @@
     @apply text-xs sm:text-sm;
   }
 
-  .bg-shade{
+  .bg-shade {
     @apply bg-[--shade];
   }
 
   /* Embla Carousel classes */
 
-.embla {
-  @apply overflow-hidden;
-}
-.embla__container {
-  @apply flex;
-}
-.embla__slide {
-  @apply flex-[0_0_100%] mr-1;
-  @apply  sm:flex-[0_0_85%] sm:mr-5
-}
-
+  .embla {
+    @apply overflow-hidden;
+  }
+  .embla__container {
+    @apply flex;
+  }
+  .embla__slide {
+    @apply flex-[0_0_100%] mr-1;
+    @apply sm:flex-[0_0_85%] sm:mr-5;
+  }
 }
 
 :root {
@@ -94,12 +93,14 @@ pre {
   }
 }
 
-.loading-bg{
-  
-  background: linear-gradient(110deg,  var(--shade) 8%, var(--shade2) 18%, var(--shade) 33%);
+.loading-bg {
+  background: linear-gradient(
+    110deg,
+    var(--shade) 8%,
+    var(--shade2) 18%,
+    var(--shade) 33%
+  );
   border-radius: 5px;
   background-size: 200% 100%;
   animation: 1s shine linear 10;
-  
 }
-
