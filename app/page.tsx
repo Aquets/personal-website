@@ -1,8 +1,7 @@
 "use client";
 import HeroSection from "./components/HeroSection";
-import ProjectsSection from "./components/ProjectsSection";
+import { ProjectsCarousel } from "./components/ProjectsCarousel";
 import SectionHeader from "./components/SectionHeader";
-import { EmblaCarousel } from "./components/EmblaCarousel";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
       <div className="container main-content">
         <div id="#projects" className="pt-10">
           <SectionHeader title="Projects" />
-          <EmblaCarousel></EmblaCarousel>
+          <ProjectsCarousel />
         </div>
         <div>
           <SectionHeader title="About me" />
